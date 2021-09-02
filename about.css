@@ -753,6 +753,108 @@ input{
     }
 
 }
+@media(max-width:440px){
+    #logo{
+        width: 7%;
+    }
+    .logo{
+        font-size: 17px;
+        margin-left: 5%;
+        margin-top:2% ;
+    }
+    ul{
+        margin-right: 30%;
+    }
+   
+    .starts{
+        padding: 5px 20px;
+        font-size: 13px;
+        margin-top: -10px;
+    }
+    .us{
+        margin-left: 20%;
+        padding-top: 60%;
+        font-size: 40px;
+    }
+    .uss{
+        margin-left:62%;
+        margin-top:-10.5% ;
+        font-size: 40px;
+    }
+    .learn{
+        font-size: 40px;
+        line-height: 6vh;
+    }
+    .learn2{
+        font-size: 16px;
+    }
+        .start{
+        padding: 5px 30px;
+        font-size: 17px;
+    }
+    .start2{
+        padding: 5px 30px;
+        font-size: 17px;
+    }
+    #icn,
+    #icn2,
+    #icn3,
+    #icn4{
+        font-size: 22px;
+        margin-top: -7%;
+        margin-left: 3%;
+    }
+   
+   ul li{
+        margin-left: 10px;
+    }
+    .tip,
+    .tipb,
+    .tipc,
+    .tipd{
+        font-size: 13px;
+    }
+    .tip2{
+        font-size: 14px;
+    }
+    .box-text1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .box-text2 {
+        font-size: 17px;
+        text-align: center;
+    }
+    #down{
+        margin-top: -8%;
+    }
+    footer{
+        width: 100%;
+        height: 120vh;
+    }
+    .footcase{
+        width:100%;
+        height: 123vh;
+        flex-direction: column;
+        margin-left: 0%;
+        font-size: 10px;
+    }
+    .foot1{
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    .tips{
+        width: 70%;
+        margin-top:5%;
+        margin-left: 20%;
+    }
+    .textend{
+        margin-top: 3%;
+        margin-bottom: 2%;
+        font-size: 17px;
+        text-align:center ;
+    }
+}
 @media(max-width:375px){
     #logo{
         width: 7%;
@@ -793,9 +895,7 @@ input{
         margin-top: -7%;
         margin-left: 3%;
     }
-    #bar{
-        font-size: 20px;
-    }
+   
    ul li{
         margin-left: 10px;
     }
