@@ -875,7 +875,7 @@ input{
     }
     .logo{
         font-size: 17px;
-        margin-left: 2%;
+        margin-left: 4%;
     }
     .starts{
         border: 3px solid #fff;
@@ -919,10 +919,10 @@ input{
         line-height: 4vh;
     }
     .txt2 {
-        font-size: 14px;
+        font-size: 10px;
         color: #fff;
-        width: 80%;
-        font-weight: normal;
+        width: 100%;
+        font-weight:bold;
         margin-top: 1%;
         line-height: 2vh;
     }
@@ -1301,9 +1301,9 @@ input{
         height: 120%;
     }
     .ial-5{
-        font-size: 15px;
+        font-size: 14px;
         color: #fff;
-        margin-top: -9%;
+        margin-top: -2%;
         text-align: center;
     }
 }
