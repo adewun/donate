@@ -1353,6 +1353,9 @@ input{
         padding-top:28%;
         position: absolute;
     }
+    .wrap-1{
+        margin-top: 0%;
+    }
 }
 
 @media(max-width:600px){
@@ -1517,12 +1520,15 @@ input{
         font-size: 13px;
     }
     .btn-3{
-        padding: 3px 5px;
-        width: 12vh;
+        padding: 3px 0px;
+        width: 13vh;
         font-size: 13px;
     }
     .text2{
         font-size: 15px;
+    }
+    .wrap-1{
+        margin-top: 0%;
     }
     .bx-txt1{
         font-size: 15px;
