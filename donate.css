@@ -842,6 +842,309 @@ input{
     margin-top: 80vh;
 
 }
+@media(max-width:1024px){
+   
+    ul li{
+        font-size: 20px;
+        margin-left: 40px;
+    }
+  
+    header{
+        height: 9vh;
+        width: 100%;
+    }
+    #logo{
+        width: 3%;
+    }
+    .logo{
+        font-size: 17px;
+        margin-left: 4%;
+    }
+    .starts{
+       
+        margin-left:2%;
+        padding: 5px 30px;
+        font-size: 17px;
+    }
+    .starts:hover{
+        color: #000;
+        border: 3px solid black;
+    }
+   
+     
+   #box{
+        margin-top:-100vh;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+    }
+    .boxtxt{
+        margin-top: 5%;
+    }
+    .txt1 {
+        font-size: 60px;
+        color: #fff;
+        font-weight: 600;
+        line-height: 8vh;
+    }
+    .txt2 {
+        font-size: 20px;
+        color: #fff;
+        width: 100%;
+        font-weight:normal;
+        margin-top: 1%;
+        line-height: 4vh;
+    }
+    .wrap-1{
+        width: 100%;
+        margin-top: 35%;
+    }
+    .btn-1 {
+        font-size: 13px;
+        position: absolute;
+        background: #ffae00;
+        margin-top: -9px;
+        padding: 9px 50px;
+        margin-top: 3%;
+    }
+    .btn-1 {
+        font-size: 13px;
+        position: absolute;
+        background: #ffae00;
+     
+    }
+    .btn-2 {
+        font-size: 13px;
+        position: absolute;
+        background: transparent;
+        margin-top: -9px;
+        padding: 9px 50px;
+        margin-left: 25%;
+        margin-top: 3%;
+    }
+    .slider{
+        height: 50vh;
+    }
+    .btn-3 {
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: 'poppins';
+        color: #fff;
+        position: absolute;
+        background: transparent;
+        padding: 9px 0px;
+        width: 15vh;
+        margin-top: -3%;
+        margin-left: -5%;
+        border: 3px solid #ffae00;
+    }
+    .txt-3{
+        font-size: 30px;
+    }
+    .txt-4{
+        font-size: 20px;
+    }
+    .sub{
+        position: relative;
+        width:0%;
+    }
+    .sub1{
+        font-size: 17px;
+        width: 0%;
+        
+    }
+    .sub2{
+        font-size: 21px;
+        width:0vh;
+    }
+    
+    .bx-1,
+    .bx-2,
+    .bx-3,
+    .bx-4{
+        height: 60vh;
+
+    }
+    .bx-txt1{
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .bx-btn1{
+        font-size: 12px;
+        margin-top: 50vh;
+    }
+    .bx-btnx{
+        font-size: 12px;
+        margin-top: 8vh;
+        margin-left: -6%;
+    }
+    .tip2{
+        width: 50%;
+        margin-top: 85%;
+        margin-left: 20%;
+    }
+   #drop {
+        margin-top: -7vh;
+        width: 4vh;
+    }
+    #half {
+        height: 30vh;
+        width: 100%;
+    }
+    .text1{
+        font-size: 18px;
+        margin-top: 0%;
+    }
+    .text2{
+        font-size: 15px;
+        margin: 0px;
+    }
+    .bx-btn{
+        font-size: 12px;
+        margin-top: 52vh;
+    }
+    /* .wrap-1{
+        height: 9vh;
+    }
+    .wrap-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .texts{
+        flex-direction: column;
+    }
+    #icn2{
+        margin-left: -15%;
+    }
+  
+    #icn3{
+        margin-left: -15%;
+    }
+    #icn1{
+        margin-left: -15%;
+    }
+    #icn4{
+        margin-left: -15%;
+    }
+    .txt{
+        margin-top: 10vh;
+    }
+    .par1{
+        width: 35vh;
+    }
+    .sub{
+        position: relative;
+        width:0%;
+    }
+    .sub1{
+        font-size: 17px;
+        width: 0%;
+        
+    }
+    .sub2{
+        font-size: 21px;
+        width:0vh;
+    }
+   
+    .pictext2{
+        flex-direction: column;
+    }
+    .texts{
+        margin-left:0%;
+    }
+    .txt{
+        width: 0vh;
+    }
+   
+    .what,
+    .what2z{
+        margin-left: 60%;
+    }
+    .what2{
+        margin-left: 40%;
+    }
+    .pic2{
+        width: 100%;
+    }
+    .font-1{
+        font-size: 12px;
+    }
+    .font-2{
+        font-size: 13px;
+    }
+    #mage{
+        width: 100%;
+        height: 50vh;
+    }
+    .ontop{
+        width: 60%;
+    }
+    .pic-wrap{
+        width: 100%;
+        margin-top: 30%;
+    }
+    .secs{
+        margin-top: 10%;
+        width: 30%;
+    }
+    .sec{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .sec1{
+        font-size: 20px;
+    }
+    .sec2{
+        font-size: 15px;
+    }
+    .circ{
+        width: 100%;
+    }
+    .swap{
+        width: 100%;
+    }
+    .ial{
+        margin-left: 20%;
+    }
+    #ins{
+        margin-left: 33%;
+    }
+    .ial-h5{
+        font-size: 15px;
+    }
+    .ial-p{
+        font-size: 15px;
+        margin-top: 35%;
+    }*/
+    footer{
+        width: 100%;
+        height: 120vh;
+    }
+    .footcase{
+        width:100%;
+        height: 123vh;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    .foot1{
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    .tip2{
+        width: 50%;
+        margin-top: 85%;
+        margin-left: 20%;
+    }
+    .textend{
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+    #down{
+        padding-top:8%;
+        position: absolute;
+    }
+}
 
 @media(max-width:812px){
     .nav-links ul{
@@ -919,10 +1222,10 @@ input{
         line-height: 4vh;
     }
     .txt2 {
-        font-size: 10px;
+        font-size: 15px;
         color: #fff;
         width: 100%;
-        font-weight:bold;
+        font-weight:normal;
         margin-top: 1%;
         line-height: 2vh;
     }
@@ -1314,6 +1617,14 @@ input{
     .txt-3{
         font-size: 18px;
     }
+    .txt2 {
+        font-size: 10px;
+        color: #fff;
+        width: 100%;
+        font-weight:bold;
+        margin-top: 1%;
+        line-height: 2vh;
+    }
     .txt-4{
         font-size: 13px;
     }
@@ -1373,6 +1684,25 @@ input{
 .box-txt2{
     font-size: 16px;
     margin-top: 5%;
+}
+.t1{
+    font-size: 15px;
+}
+.t2{
+    font-size: 15px;
+}
+.t2s{
+    font-size: 15px;
+}
+.topt1{
+    font-size: 22px;
+}
+.topt2{
+    font-size: 15px;
+}
+.btn-top{
+    padding: 3px 10px;
+    font-size: 15px;
 }
 footer{
     width: 100%;
@@ -1561,4 +1891,36 @@ input{
    
     
    
+}
+@media(max-width:340px){
+    .btn-1{
+        padding: 3px 10px;
+    }
+    .btn-2{
+        padding: 3px 10px;
+    }
+    .txt1{
+        font-size: 25px;
+    }
+    .txt-3{
+        font-size: 14px;
+    }
+    .txt-4{
+        font-size: 11px;
+    }
+    .btn-3 {
+        padding: 3px 1px;
+        width: 10vh;
+        font-size: 11px;
+    }
+    .box-txt1{
+        font-size: 22px;
+    }
+    .box-txt2{
+        font-size: 14px;
+    }
+    #down{
+        margin-top: 15%;
+    }
+    
 }
