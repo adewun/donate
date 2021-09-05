@@ -462,6 +462,14 @@ ul li {
         margin-top: 15%;
     }
 }
+@media(max-width:440px){
+    .square2{
+        margin-top:138%;
+    }
+    .icons{
+        margin-top: 35%;
+    }
+}
 
 @media(max-width:414px)  {
     .square2{

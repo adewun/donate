@@ -86,14 +86,14 @@ a{
 }
 a:hover{
     cursor: pointer;
-    color:#ffae00;
+    color:#dac79b;
     transition: 1s;
 }
 
 ul li:hover{
-    margin-left: 40px;
+    margin-left: 70px;
     cursor: pointer;
-    color:#ffae00;
+    color:#918b80;
     transition: 1s;
 }
 #slideimg{
@@ -295,6 +295,26 @@ ul li:hover{
     margin-top: 45vh;
 }
 .bx-btn1:hover{
+    background:#ffae00;
+    transition: 3s;
+    color:#fff;
+    border: 3px solid #ffae00;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.bx-btnx{
+    font-size: 20px;
+    font-weight:bolder;
+    font-family: 'poppins';
+    color:#fff;
+    position: absolute;
+    background: transparent;
+    padding: 6px 5px ;
+    border: 3px solid #ffae00;
+    margin-top: 5vh;
+    margin-left: -3%;
+}
+.bx-btnx:hover{
     background:#ffae00;
     transition: 3s;
     color:#fff;
@@ -830,17 +850,16 @@ input{
         padding: 0px;
     }
     ul li{
-        margin-top:7vh; 
+        margin-top:5vh; 
         width: 200px;
-    }
-    ul li:hover{
-        color: #0000;
+        font-size: 14px;
+        margin-left: 40px;
     }
     .nav-links{
         position:fixed;
         background: #ffae00;
         height: 100vh;
-        width: 300px;
+        width: 150px;
         top: 0;
         right: -500px;;
         text-align:left;
@@ -848,11 +867,11 @@ input{
         transition: 1s;
     }
     header{
-        height: 7%;
+        height: 9vh;
         width: 100%;
     }
     #logo{
-        width: 7%;
+        width: 5%;
     }
     .logo{
         font-size: 17px;
@@ -861,6 +880,8 @@ input{
     .starts{
         border: 3px solid #fff;
         margin-left: -10%;
+        padding: 2px 15px;
+        font-size: 14px;
     }
     .starts:hover{
         color: #000;
@@ -975,6 +996,11 @@ input{
     .bx-btn1{
         font-size: 12px;
         margin-top: 32vh;
+    }
+    .bx-btnx{
+        font-size: 12px;
+        margin-top: 7vh;
+        margin-left: -6%;
     }
     #drop {
         margin-top: -7vh;
@@ -1133,7 +1159,8 @@ input{
         margin-bottom: 2%;
     }
     #down{
-        margin-top: -4%;
+        padding-top:28%;
+        position: absolute;
     }
 }
 
@@ -1279,6 +1306,131 @@ input{
         margin-top: -9%;
         text-align: center;
     }
+}
+@media(max-width:440px){
+    #show{
+        margin-right: 10%;
+    }
+    .txt-3{
+        font-size: 18px;
+    }
+    .txt-4{
+        font-size: 13px;
+    }
+    .btn-3{
+        padding: 3px 5px;
+        width: 12vh;
+        font-size: 13px;
+    }
+    .text2{
+        font-size: 15px;
+    }
+    .bx-txt1{
+        font-size: 15px;
+    }
+    #icn1,
+    #icn2,
+    #icn3,
+    #icn4{
+        font-size: 35px;
+    }
+    .what,
+    .what2z,
+    .what3,
+    .what4{
+        font-size: 18px;
+    }
+    .what2{
+        font-size: 17px;
+    }
+    #con{
+        width: 18%;
+    }
+    .sec2{
+        font-size: 14px;
+    }
+    .secs{
+        margin-top: 5%;
+    }
+    .cir-tx{
+        font-size: 50px;
+    }
+}
+.box-text1 {
+    font-size: 25px;
+    text-align: center;
+}
+.box-text2 {
+    font-size: 17px;
+    text-align: center;
+}
+#down{
+    margin-top: -8%;
+}
+.box-txt1{
+    font-size: 30px;
+}
+.box-txt2{
+    font-size: 16px;
+    margin-top: 5%;
+}
+footer{
+    width: 100%;
+    height: 120vh;
+}
+.footcase{
+    width:100%;
+    height: 123vh;
+    flex-direction: column;
+    margin-left: 0%;
+    font-size: 10px;
+}
+.foot1{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.lowtop{
+    font-size: 15px;
+}
+.ontop2{
+    font-size: 15px;
+}
+#feat{
+    width: 6vh;
+}
+#feat1{
+    width: 3vh;
+}
+#feat2{
+    width: 4vh;
+}
+.tips{
+    width: 70%;
+    margin-top:105%;
+    margin-left: 25%;
+}
+.conx{
+    font-size: 17px;
+}
+#bk{
+    font-size: 17px;
+}
+.bx-btn0{
+    padding: 5px 25px;
+    font-size: 15px;
+    margin-top: 3vh;
+}
+input{
+    width: 45vh;
+    height: 5vh;
+    font-size: 15px;
+}
+.textend{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 15px;
+    text-align:center ;
+}
 }
 @media(max-width:375px){
     .btn-1{

@@ -245,6 +245,13 @@ ul li:hover{
     margin-top: 0%;
     font-family:'arial';
 }
+.txt3x{
+    font-size: 21px;
+    color: #ffae00;
+    font-weight:normal;
+    margin-top: 0%;
+    font-family:'arial';
+}
 @media(max-width:812px)  {
     .circle2{
         width: 10rem;
@@ -262,6 +269,9 @@ ul li:hover{
     }
 
     .txt3{
+        font-size: 17px;
+    }
+    .txt3x{
         font-size: 12px;
     }
     .starts{
@@ -281,11 +291,12 @@ ul li:hover{
         margin-top: 0%;
     }
 }
-@media(max-width:375px){
+@media(max-width:440px){
     .circle1{
         width: 10rem;
         height: 10rem;
         margin-top: 125%;
+        
     }
     .circle2{
         width: 10rem;
@@ -293,7 +304,114 @@ ul li:hover{
         margin-top: -125%;
     }
     .circle2{
-        margin-left: 0%;
+        margin-left: 60%;
+    }
+    .txt3{
+        font-size: 1px;
+    }
+    .sub2{
+        width: 0vh;
+    }
+    .sub2s{
+        width: 0vh;
+    }
+    #mage{
+        width: 10%;
+    }
+    header{
+        height: 7%;
+        width: 100%;
+    }
+    #logo{
+        width: 7%;
+        margin-top: -1%;
+    }
+    .logo{
+        font-size: 14px;
+        margin-left: 2%;
+        margin-top: 1%;
+    }
+    .starts{
+        border: 3px solid #fff;
+        margin-left: -10%;
+        padding: 5px 15px;
+        font-size: 10px;
+        margin-top: -15px;
+    }
+    .square{
+        width: 95%;
+        height: 60vh;
+        
+    }
+    .box{
+        height: 100vh;
+    }
+    .box1,
+    .box2,
+    .box3{
+        width: 46%;
+        height: 20vh;
+        margin-top: -100%;
+    }
+    .box1{
+        margin-left: 2%;
+    }
+    .box3{
+        margin-top: -63%;
+        margin-left: 27%;
+    }
+
+    .txt1{
+        font-size: 15px;
+    }
+    .txt2{
+        font-size: 12px;
+    }
+    .txt3{
+        font-size:14px;
+    }
+    .txt3x{
+        font-size: 10px;
+    }
+    #icn{
+        font-size: 20px;
+    }
+    #icno{
+        font-size: 20px;
+    }
+    .box-s{
+        margin-top: 95%;
+       
+    }
+    .box-ss{
+        margin-top: -135%;
+        margin-left: 65%
+    }
+    .sub{
+        margin-top: 30%;
+    }
+    .sub1,
+    .sub1s{
+        font-size: 12px;
+    }
+    .sub2,
+    .sub2s{
+        font-size: 14px;
+    }
+} 
+@media(max-width:375px){
+    .circle1{
+        width: 10rem;
+        height: 10rem;
+        margin-top: 145%;
+    }
+    .circle2{
+        width: 10rem;
+        height: 10rem;
+        margin-top: -130%;
+    }
+    .circle2{
+        margin-left: 60%;
     }
     .txt3{
         font-size: 1px;
@@ -342,21 +460,24 @@ ul li:hover{
         margin-top: -100%;
     }
     .box1{
-        margin-left: -4%;
+        margin-left: -2%;
     }
     .box3{
-        margin-top: -55%;
-        margin-left: 18%;
+        margin-top: -60%;
+        margin-left: 24%;
     }
 
     .txt1{
-        font-size: 13px;
+        font-size: 15px;
     }
     .txt2{
-        font-size: 11px;
+        font-size: 12px;
     }
     .txt3{
-        font-size:8px;
+        font-size:14px;
+    }
+    .txt3x{
+        font-size: 8px;
     }
     #icn{
         font-size: 20px;
@@ -365,10 +486,10 @@ ul li:hover{
         font-size: 20px;
     }
     .box-s{
-        margin-top: 95%;
+        margin-top: 110%;
     }
     .box-ss{
-        margin-top: -140%;
+        margin-top: -150%;
     }
     .sub{
         margin-top: 30%;
