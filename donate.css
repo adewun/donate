@@ -702,9 +702,20 @@ ul li:hover{
     margin-top: -20%;
 
 }
+.ial-p1{
+    font-size: 22px;
+    margin-top: -25%;
+
+}
 .ial-h5{
     font-size: 18px;
     margin-top: -10%;
+    margin-left: 38%;
+
+}
+.ial-h51{
+    font-size: 18px;
+    margin-top: -15%;
     margin-left: 30%;
 
 }
@@ -720,30 +731,7 @@ ul li:hover{
     margin-left: 43%;
     margin-top: 10%;
 }
-#inss{
-    width: 21vh;
-    height: 21vh;
-    margin-left: 43%;
-    margin-top: 10%;
-    border-radius: 50%;
-    border: 10px solid red;
-}
-#inss1{
-    width: 21vh;
-    height: 21vh;
-    margin-left: 43%;
-    margin-top: 10%;
-    border-radius: 50%;
-    border: 10px solid rgb(206, 197, 197);
-}
-#insss{
-    width: 21vh;
-    height: 21vh;
-    margin-left: 43%;
-    margin-top: 10%;
-    border-radius: 50%;
-    border: 10px solid #ffae00;
-}
+
 
 footer{
     width: 100%;
