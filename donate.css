@@ -731,7 +731,36 @@ ul li:hover{
     margin-left: 43%;
     margin-top: 10%;
 }
-
+#ins1{
+    width: 26vh;
+    margin-left: 43%;
+    margin-top: 12%;
+    border-radius: 40%;
+    border: 10px solid #ffae00;
+}
+#ins2{
+    width: 26vh;
+    margin-left: 43%;
+    margin-top: 15%;
+    border-radius: 40%;
+    border: 10px solid blue;
+}
+#ins3{
+    width: 27vh;
+    height: 20vh;
+    margin-left: 43%;
+    margin-top: 15%;
+    border-radius: 40%;
+    border: 10px solid blue;
+}
+#inss{
+    width: 23vh;
+    height: 23vh;
+    margin-left: 43%;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 10px solid black;
+}
 
 footer{
     width: 100%;
