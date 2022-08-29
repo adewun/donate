@@ -160,7 +160,7 @@ ul li:hover{
 }
 .start:hover{
     background:transparent;
-    transition: 3s;
+    transition: 0.1s;
     color:#ffae00;
     border: 3px solid #ffae00;
     font-weight: bolder;
