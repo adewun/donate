@@ -11,20 +11,21 @@ body{
 
 .logo{
     cursor: pointer;
-    font-style: italic;
     font-size: 20px;
-    font-weight:300;
-    color:#ffe6af;
+    font-weight:bold;
+    color: rgb(240, 206, 13);
     margin-top: 0px;
-    margin-left: 7%;
+    margin-left: 15.6%;
     text-decoration: none;
     z-index: 2;
 }
 #logo{
     position:absolute;
-    margin-left: -15px;
+    margin-left: 13.6%;
     margin-top:-5px;
+    width: 2.5%;
     z-index: -1;
+    border-radius: 20px;
 }
 #hide,
 #show{
@@ -38,23 +39,23 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color:white;
-    background: rgba(255, 255, 255, 0.100);
+    background: rgba(7, 6, 6, 0.1);
     backdrop-filter: blur(2rem);
     position: fixed;
     z-index:5;
     box-shadow: 1px 1px 20px rgb(141, 141, 141);
 }  
 .starts{
-    font-size: 20px;
+    font-size: 13px;
     font-weight:bolder;
     font-family: 'poppins';
     color:#fff;
     position: absolute;
     background: transparent;
     margin-top: -6px;
-    padding: 9px 60px ;
+    padding: 5px 30px ;
     border-radius: 28px;
-    border: 3px solid #ffae00;
+    border: 2px solid #ffae00;
 }
 .starts:hover{
     background:transparent;
@@ -71,16 +72,17 @@ ul{
     margin-right: 30vh;
 }
 ul li{
-    margin-left:70px;
-    font-size: 20px;
-    color:#fff;
-    font-weight:bolder;
+    margin-left:60px;
+    margin-top: 30xp;
+    font-size: 14px;
+    color: #ffae00;
+    font-weight:bold;
     cursor: pointer;
 }
 a{
     text-decoration: none;
     list-style: none;
-    color: #fff;
+    color: #ffae00;
 }
 a:hover{
     cursor: pointer;
@@ -89,7 +91,6 @@ a:hover{
 }
 
 ul li:hover{
-    margin-left: 70px;
     cursor: pointer;
     color:#918b80;
    
@@ -109,7 +110,7 @@ ul li:hover{
 }
 #box{
     position:relative;
-    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
+    background:linear-gradient(rgba(3, 3, 3, 0.6), rgba(26, 25, 25, 0.7));
     margin-top: -47%;
     width:100%;
     height: 100vh;
@@ -119,26 +120,27 @@ ul li:hover{
     margin-left: 10%;
 }
 .txt1{
-    font-size: 90px;
+    font-size: 70px;
     color: #fff;
     font-weight:600;
-    line-height: 11vh;
+    line-height: 14vh;
 }
 .txt2{
-    font-size: 20px;
+    font-size: 14px;
     color:#fff;
     font-weight:normal;
     padding-top: 0%;
-    line-height: 4vh;
+    line-height: 3vh;
+    letter-spacing: 4px;
 }
 .btn-1{
-    font-size: 20px;
-    font-weight:bolder;
+    font-size: 14px;
+    font-weight:bold;
     font-family: 'poppins';
     color:#fff;
     position: absolute;
-    background:#ffae00;
-    padding: 9px 60px ;
+    background:rgb(255, 174, 0);
+    padding: 5px 40px ;
     margin-top: 3%;
     border-radius: 28px;
     border: 3px solid #ffae00;
@@ -152,14 +154,14 @@ ul li:hover{
     cursor: pointer;
 }
 .btn-2{
-    font-size: 20px;
-    font-weight:bolder;
+    font-size: 14px;
+    font-weight:bold;
     font-family: 'poppins';
     color:#fff;
     position: absolute;
     background: transparent;
     margin-top: 3%;
-    padding: 9px 60px ;
+    padding: 5px 40px ;
     margin-left: 15%;
     border-radius: 28px;
     border: 3px solid #ffae00;
@@ -188,24 +190,24 @@ ul li:hover{
     margin-top: 1.5%;
 }
 .txt-3{
-    font-size: 33px;
+    font-size: 23px;
     color: #fff;
     font-weight:normal;
 }
 .txt-4{
-    font-size: 20px;
+    font-size: 12px;
     color: #fff;
     font-weight:lighter;
 }
 .btn-3{
-    font-size: 20px;
+    font-size: 13px;
     font-weight:bolder;
     font-family: 'poppins';
     color:#fff;
     position: absolute;
     background: transparent;
     margin-top: -2%;
-    padding: 9px 50px ;
+    padding: 6px 30px ;
     border: 3px solid #ffae00;
 }
 .btn-3:hover{
@@ -277,12 +279,12 @@ ul li:hover{
     margin-top: 10%;
     margin-left: 15%;
     margin-right: 15%;
-    font-size: 18px;
+    font-size: 13px;
     font-weight:300;
     color: #fff;
 }
 .bx-btn1{
-    font-size: 20px;
+    font-size: 13px;
     font-weight:bolder;
     font-family: 'poppins';
     color:#fff;
@@ -301,7 +303,7 @@ ul li:hover{
     cursor: pointer;
 }
 .bx-btnx{
-    font-size: 20px;
+    font-size: 13px;
     font-weight:bolder;
     font-family: 'poppins';
     color:#fff;
@@ -321,20 +323,20 @@ ul li:hover{
     cursor: pointer;
 }
 .text1{
-    font-size: 25px;
+    font-size: 17px;
     font-weight: 600;
     color: #fff;
     margin-top: 7%;
 }
 .text2{
-    font-size: 19px;
+    font-size: 13px;
     font-weight:300;
     color: #fff;
     margin-left: 15%;
     margin-right: 15%;
 }
 .bx-btn{
-    font-size: 20px;
+    font-size: 13px;
     font-weight:bolder;
     font-family: 'poppins';
     color:#fff;
@@ -342,7 +344,7 @@ ul li:hover{
     background: transparent;
     padding: 4px 5px ;
     border: 3px solid #ffae00;
-    margin-top: 50vh;
+    margin-top: 12vh;
 }
 .bx-btn:hover{
     background:#ffae00;
@@ -385,7 +387,7 @@ ul li:hover{
     position: absolute;
     margin-left: 4%;
     margin-top: -3px;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: lighter;
     color:rgb(57, 182, 240);
 }
@@ -394,7 +396,7 @@ ul li:hover{
     position: absolute;
     margin-left: 4%;
     margin-top: -3px;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: lighter;
     color:rgb(219, 223, 25)  ;
 }
@@ -403,7 +405,7 @@ ul li:hover{
     position: absolute;
     margin-left: 4%;
     margin-top: -3px;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: lighter;
     color:rgb(10, 173, 10) ;
 }
@@ -412,35 +414,35 @@ ul li:hover{
     position: absolute;
     margin-left: 4%;
     margin-top: -3px;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: lighter;
     color: #ffae00;
 }
 .what{
     margin: 5%;
     margin-left: 40%;
-    font-size: 25px;
+    font-size: 17px;
     color:rgb(57, 182, 240) ;
     display: inline;
 }
 .what2z{
     margin: 5%;
     margin-left: 40%;
-    font-size: 25px;
+    font-size: 17px;
     color: rgb(219, 223, 25) ;
     display: inline;
 }
 .what3{
     margin: 5%;
     margin-left: 40%;
-    font-size: 25px;
+    font-size: 17px;
     color: rgb(10, 173, 10) ;
     display: inline;
 }
 .what4{
     margin: 5%;
     margin-left: 40%;
-    font-size: 25px;
+    font-size: 17px;
     color: #ffae00;
     display: inline;
 }
@@ -448,7 +450,7 @@ ul li:hover{
 .what2{
     margin-top: -5%;
     font-weight:600;
-    font-size: 22px;
+    font-size: 15px;
     margin-left: 40%;
     display: inline;
 }
@@ -466,10 +468,10 @@ ul li:hover{
 .sub1{
     color: #ffae00;
     font-weight: lighter;
-    font-size: 25px;
+    font-size: 17px;
 }
 .sub2{
-    font-size:40px;
+    font-size:25px;
     width: 100vh;
 }
 .wrap-3{
@@ -502,18 +504,18 @@ ul li:hover{
 }
 
 .font-1{
-    font-size: 20px;
+    font-size: 13px;
     font-weight: normal;
     color: #ffae00;
     margin-left: 3%;
 }
 .font-2{
-    font-size: 27px;
+    font-size: 18px;
     font-weight:600;
     margin-left: 3%;
 }
 .font-3{
-    font-size: 20px;
+    font-size: 13px;
     font-weight: normal;
     color: #fff;
     margin-left: 3%;
@@ -527,14 +529,14 @@ ul li:hover{
     margin-left: 22.4%;
 }
 .topt1{
-    font-size: 25px;
+    font-size: 17px;
 }
 .topt2{
-    font-size: 17px;
+    font-size: 12px;
     font-weight:normal;
 }
 .btn-top{
-    font-size: 20px;
+    font-size: 13px;
     font-weight:bolder;
     font-family: 'poppins';
     color:#ffae00;
@@ -568,16 +570,16 @@ ul li:hover{
     margin-left: 5%;
 }
 .t1{
-    font-size: 20px;
+    font-size: 13px;
 }
 .t2{
-    font-size: 20px;
+    font-size: 13px;
     font-weight:bold;
     margin-left: -19%;
     color:rgb(119, 119, 241);
 }
 .t2s{
-    font-size: 20px;
+    font-size: 13px;
     font-weight:bold;
     margin-left:20%;
     color: #ffae00;
@@ -600,7 +602,7 @@ ul li:hover{
     padding-top:4%;
     color: #fff;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 25px;
 }
 .sec{
     display: flex;
@@ -615,13 +617,13 @@ ul li:hover{
     margin-top: 4%;
 }
 .sec1{
-    font-size: 25px;
+    font-size: 17px;
     color: #fff;
     font-weight: 500;
     margin-top: 9%;
 }
 .sec2{
-    font-size:20px;
+    font-size:13px;
     color: #fff;
     font-weight:lighter;
     margin-top: 3%;
@@ -643,16 +645,16 @@ ul li:hover{
     text-align: center;
 }
 .box-txt1{
-    font-size:40px ;
+    font-size:25px ;
     margin-top: 3%;
 }
 .box-txt2{
-    font-size:20px ;
+    font-size:13px ;
     color:#6e6d6d;
     font-weight: normal;
 }
 #down{
-    font-size: 70px;
+    font-size: 50px;
     color: #ffae00;
     margin-top:-1.5%;
 }
@@ -683,28 +685,28 @@ ul li:hover{
     height: 90vh;
 }
 .cir-tx{
-    font-size: 100px;
+    font-size: 70px;
     font-weight: lighter;
     transform: rotate(75deg);
     margin-left: 7%;
     -webkit-box-reflect: below -60px linear-gradient(transparent, rgba(255,255,255,0.4));
 }
 .ial{
-    font-size: 50px;
+    font-size: 35px;
     color: #ffae00;
     margin-left: 40%;
     margin-top: 5%;
     font-weight: bold;
 }
 .ial-p{
-    font-size: 22px;
+    font-size: 14px;
     margin-top: -20%;
    
 
 }
 
 .ial-h5{
-    font-size: 18px;
+    font-size: 12px;
     margin-top: -10%;
     margin-left: 38%;
     color: #ffae00;
@@ -782,13 +784,13 @@ footer{
     margin-top:-10px;
 }
 .ontop2{
-    font-size: 24px;
+    font-size: 17px;
     color: rgb(172, 170, 170);
     font-weight: bolder;
     line-height: 60px;
 }
 .lowtop{
-    font-size: 24px;
+    font-size: 16px;
     color: rgb(172, 170, 170);
     font-weight:lighter;
     line-height: 40px;
@@ -797,12 +799,12 @@ footer{
 .ph{
     color: #ffae00;
     cursor: pointer;
-    font-size: 60px;
+    font-size: 45px;
     font-weight: bolder;
     letter-spacing: -5px;
 }
 .sign{
-    font-size: 40px;
+    font-size: 25px;
     color: rgb(172, 170, 170);
     font-weight: normal;
     line-height: 120px;
@@ -813,7 +815,7 @@ footer{
 }
 
 #bk{
-    font-size: 27px;
+    font-size: 15px;
     margin: 3%;
     margin-top:3%;
     margin-left: 5%;
@@ -827,15 +829,15 @@ input{
     background-color: rgb(241, 241, 241);
     color:  rgb(241, 241, 241);
     border: none;
-    font-size: 21px;
+    font-size: 13px;
 }
 .conx{
-    font-size: 23px;
+    font-size: 15px;
     color: rgb(172, 170, 170);
     margin-left: 22%;
 }
 .tip2{
-    margin-top: 15%;
+    margin-top: 12%;
     margin-left: 15%;
     width: 100vh;
     position: absolute;
@@ -844,11 +846,11 @@ input{
     margin-top: 1%;
     margin-left: 10%;
     color: rgb(172, 170, 170);
-    font-size: 22px;
+    font-size: 15px;
 }
    
 .bx-btn0{
-        font-size: 20px;
+        font-size: 13px;
         font-weight:bolder;
         font-family: 'poppins';
         color:#fff;
@@ -873,7 +875,7 @@ input{
     padding: 10px 18px;
     border-radius: 50%;
     margin-left:97%;
-    font-size:20px;
+    font-size:13px;
     position:fixed;
     margin-top: 80vh;
 
